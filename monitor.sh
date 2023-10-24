@@ -15,8 +15,8 @@ MONITOR_MAIN=172.16.0.1/12
 # PROXY BOX (e.g. burp). The ip address of the machine running a transparent proxy.
 PROXYBOX=172.16.0.1
 # port on which the proxy is listening
-PROXYBOX_HTTP_PORT=80
-PROXYBOX_HTTPS_PORT=443
+PROXYBOX_HTTP_PORT=8080
+PROXYBOX_HTTPS_PORT=8080
 # configuration directory
 CONFIGDIR=./conf
 # directory to which to write wireshark dumps
